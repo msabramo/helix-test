@@ -18,7 +18,7 @@
 
 # Helix - hello_helix
 
-It works! hello_helix is up and running.
+It works! hello_helix is up and running. This is pretty cool.
 
 ## What's next?
 

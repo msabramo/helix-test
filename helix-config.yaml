@@ -1,0 +1,15 @@
+#
+# helix configuration for local development
+#
+version: 1
+
+definitions:
+  defaults:
+    - &defaultRepo "ssh://git@github.com/msabramo/helix-test.git"
+
+strains:
+  - name: default
+    code: ssh://git@github.com/msabramo/helix-test.git#main
+    content: ssh://git@github.com/msabramo/helix-test.git#master
+    static: ssh://git@github.com/msabramo/helix-test.git/htdocs#master
+    package: sensei-custom-solutions/b70e88d6c8916476722bf26f7915c5c188dfacc0
